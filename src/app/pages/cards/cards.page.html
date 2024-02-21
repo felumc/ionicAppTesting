@@ -1,0 +1,19 @@
+<app-header title="Cards" />
+
+<ion-content [fullscreen]="true">
+  <ion-card *ngFor="let car of cars">
+    <ion-card-header>
+      <ion-card-subtitle>{{ car.price | currency}} - {{car.color}}</ion-card-subtitle>
+      <ion-card-title>{{car.model}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <img
+        src={{car.photoUrl}}
+        alt=""
+      />
+      <ion-button expand="block" color="success" (click)="presentAlert(car.model)"
+        >Buy now <ion-icon slot="start" name="card" /></ion-button
+      >
+    </ion-card-content>
+  </ion-card>
+</ion-content>

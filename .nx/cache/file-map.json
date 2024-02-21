@@ -95,7 +95,7 @@
       },
       {
         "file": "ios/App/App.xcodeproj/project.pbxproj",
-        "hash": "15739853270267132621"
+        "hash": "15354319875240115943"
       },
       {
         "file": "ios/App/App.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
@@ -151,7 +151,7 @@
       },
       {
         "file": "ios/App/App/Info.plist",
-        "hash": "12271652834556747435"
+        "hash": "3141508969321721800"
       },
       {
         "file": "ios/App/Podfile",
@@ -175,7 +175,7 @@
       },
       {
         "file": "src/app/app-routing.module.ts",
-        "hash": "1851431766520547253"
+        "hash": "2199971703612666602"
       },
       {
         "file": "src/app/app.component.html",
@@ -198,6 +198,26 @@
         "hash": "5073765293049625490"
       },
       {
+        "file": "src/app/components/components.module.ts",
+        "hash": "5362018083207497982"
+      },
+      {
+        "file": "src/app/components/header/header.component.html",
+        "hash": "9593019520519745584"
+      },
+      {
+        "file": "src/app/components/header/header.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/header/header.component.spec.ts",
+        "hash": "15942973713125930543"
+      },
+      {
+        "file": "src/app/components/header/header.component.ts",
+        "hash": "5045726891513739368"
+      },
+      {
         "file": "src/app/home/home-routing.module.ts",
         "hash": "15640276891962985461"
       },
@@ -207,7 +227,7 @@
       },
       {
         "file": "src/app/home/home.page.html",
-        "hash": "4004055337667122893"
+        "hash": "17971362873205261928"
       },
       {
         "file": "src/app/home/home.page.scss",
@@ -219,11 +239,11 @@
       },
       {
         "file": "src/app/home/home.page.ts",
-        "hash": "8487356076142101005"
+        "hash": "17050569462815430828"
       },
       {
         "file": "src/app/interfaces/route.interface.ts",
-        "hash": "9953983978408800975"
+        "hash": "16005024676659951534"
       },
       {
         "file": "src/app/pages/action-sheet/action-sheet-routing.module.ts",
@@ -231,11 +251,11 @@
       },
       {
         "file": "src/app/pages/action-sheet/action-sheet.module.ts",
-        "hash": "7933503494995545393"
+        "hash": "1171294075564253831"
       },
       {
         "file": "src/app/pages/action-sheet/action-sheet.page.html",
-        "hash": "3399846452070587487"
+        "hash": "13029426184109687254"
       },
       {
         "file": "src/app/pages/action-sheet/action-sheet.page.scss",
@@ -247,7 +267,199 @@
       },
       {
         "file": "src/app/pages/action-sheet/action-sheet.page.ts",
-        "hash": "15427295571586139372"
+        "hash": "13131554711072952874"
+      },
+      {
+        "file": "src/app/pages/alert/alert-routing.module.ts",
+        "hash": "14424554412657250722"
+      },
+      {
+        "file": "src/app/pages/alert/alert.module.ts",
+        "hash": "897791204304952725"
+      },
+      {
+        "file": "src/app/pages/alert/alert.page.html",
+        "hash": "12700297466569472085"
+      },
+      {
+        "file": "src/app/pages/alert/alert.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/alert/alert.page.spec.ts",
+        "hash": "13846114028794011468"
+      },
+      {
+        "file": "src/app/pages/alert/alert.page.ts",
+        "hash": "2858702267209517442"
+      },
+      {
+        "file": "src/app/pages/avatar/avatar-routing.module.ts",
+        "hash": "17398907847833564039"
+      },
+      {
+        "file": "src/app/pages/avatar/avatar.module.ts",
+        "hash": "5673603480240058112"
+      },
+      {
+        "file": "src/app/pages/avatar/avatar.page.html",
+        "hash": "15345114648799151319"
+      },
+      {
+        "file": "src/app/pages/avatar/avatar.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/avatar/avatar.page.spec.ts",
+        "hash": "14368066976005045292"
+      },
+      {
+        "file": "src/app/pages/avatar/avatar.page.ts",
+        "hash": "5818244200282567192"
+      },
+      {
+        "file": "src/app/pages/buttons/buttons-routing.module.ts",
+        "hash": "4600139047575589935"
+      },
+      {
+        "file": "src/app/pages/buttons/buttons.module.ts",
+        "hash": "6961097279519885938"
+      },
+      {
+        "file": "src/app/pages/buttons/buttons.page.html",
+        "hash": "15841546963067944750"
+      },
+      {
+        "file": "src/app/pages/buttons/buttons.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/buttons/buttons.page.spec.ts",
+        "hash": "13659758338983160038"
+      },
+      {
+        "file": "src/app/pages/buttons/buttons.page.ts",
+        "hash": "4543272432856495177"
+      },
+      {
+        "file": "src/app/pages/cards/cards-routing.module.ts",
+        "hash": "1999944112118695783"
+      },
+      {
+        "file": "src/app/pages/cards/cards.module.ts",
+        "hash": "12160615340823922806"
+      },
+      {
+        "file": "src/app/pages/cards/cards.page.html",
+        "hash": "12474125428919607138"
+      },
+      {
+        "file": "src/app/pages/cards/cards.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/cards/cards.page.spec.ts",
+        "hash": "2481687706531599213"
+      },
+      {
+        "file": "src/app/pages/cards/cards.page.ts",
+        "hash": "15481065316436198680"
+      },
+      {
+        "file": "src/app/pages/chips/chips-routing.module.ts",
+        "hash": "13147529250072071833"
+      },
+      {
+        "file": "src/app/pages/chips/chips.module.ts",
+        "hash": "6749184755976915161"
+      },
+      {
+        "file": "src/app/pages/chips/chips.page.html",
+        "hash": "12599171920122508661"
+      },
+      {
+        "file": "src/app/pages/chips/chips.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/chips/chips.page.spec.ts",
+        "hash": "10999938585629947337"
+      },
+      {
+        "file": "src/app/pages/chips/chips.page.ts",
+        "hash": "323286434800333508"
+      },
+      {
+        "file": "src/app/pages/datetime/datetime-routing.module.ts",
+        "hash": "12086407415146343695"
+      },
+      {
+        "file": "src/app/pages/datetime/datetime.module.ts",
+        "hash": "12602045912493147721"
+      },
+      {
+        "file": "src/app/pages/datetime/datetime.page.html",
+        "hash": "2695512947185826702"
+      },
+      {
+        "file": "src/app/pages/datetime/datetime.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/datetime/datetime.page.spec.ts",
+        "hash": "2093966185748505486"
+      },
+      {
+        "file": "src/app/pages/datetime/datetime.page.ts",
+        "hash": "9810822624923753355"
+      },
+      {
+        "file": "src/app/pages/list/list-routing.module.ts",
+        "hash": "5071985468957401224"
+      },
+      {
+        "file": "src/app/pages/list/list.module.ts",
+        "hash": "16343776403982787354"
+      },
+      {
+        "file": "src/app/pages/list/list.page.html",
+        "hash": "4501681360438632349"
+      },
+      {
+        "file": "src/app/pages/list/list.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/list/list.page.spec.ts",
+        "hash": "12991262082611075636"
+      },
+      {
+        "file": "src/app/pages/list/list.page.ts",
+        "hash": "9719718126612126060"
+      },
+      {
+        "file": "src/app/pages/picker/picker-routing.module.ts",
+        "hash": "4839396988185496887"
+      },
+      {
+        "file": "src/app/pages/picker/picker.module.ts",
+        "hash": "1548561878351520278"
+      },
+      {
+        "file": "src/app/pages/picker/picker.page.html",
+        "hash": "5135480975961960283"
+      },
+      {
+        "file": "src/app/pages/picker/picker.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/picker/picker.page.spec.ts",
+        "hash": "9819923084467320200"
+      },
+      {
+        "file": "src/app/pages/picker/picker.page.ts",
+        "hash": "12973101128199254920"
       },
       {
         "file": "src/assets/icon/favicon.png",
@@ -267,7 +479,7 @@
       },
       {
         "file": "src/global.scss",
-        "hash": "16777120732726033300"
+        "hash": "13964946719810687066"
       },
       {
         "file": "src/index.html",

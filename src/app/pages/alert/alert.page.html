@@ -1,13 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>alert</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header title="Alert Page"/>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">alert</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-button expand="full" class="ion-margin" (click)="presentAlert()">Alert!</ion-button>
+  <ion-button expand="full" class="ion-margin" (click)="presentAlertWithButtons()">Alert with buttons!</ion-button>
+  <ion-button expand="full" class="ion-margin" (click)="selectPizza()">Pizza selector</ion-button>
+  <ion-button expand="full" class="ion-margin" (click)="login()">Login</ion-button>
+  <ion-button expand="full" class="ion-margin" (click)="register()">Register</ion-button>
+
+  <ion-list-header>
+    <ion-label>Alumnos</ion-label>
+  </ion-list-header>
+  <ion-list>
+    <ion-item *ngFor="let alumno of misAlumnos">
+      <ion-label>{{alumno.name}} - {{alumno.matricula}} - {{alumno.email}}</ion-label>
+      <ion-button color="danger" (click)="deleteUser(alumno.matricula)">Delete</ion-button>
+    </ion-item>
+  </ion-list>
 </ion-content>

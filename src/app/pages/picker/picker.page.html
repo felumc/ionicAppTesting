@@ -1,0 +1,22 @@
+<app-header title="Picker" />
+
+<ion-content [fullscreen]="true">
+  <ion-button
+    expand="block"
+    class="ion-margin"
+    color="danger"
+    (click)="selectPizza()"
+  >
+    <ion-icon slot="start" icon="pizza"></ion-icon>
+    Pizza Picker</ion-button
+  >
+  <ion-button
+    expand="block"
+    class="ion-margin"
+    color="warning"
+    (click)="selectBurger()"
+  >
+    <ion-icon slot="start" icon="fast-food"></ion-icon>
+    Burger Picker</ion-button
+  >
+</ion-content>

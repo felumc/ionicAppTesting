@@ -27,6 +27,54 @@ export class HomePage {
       route: '/buttons',
       icon: 'cash',
       color: 'success'
+    },
+    {
+      name: 'Cards',
+      route: '/cards',
+      icon: 'card',
+      color: 'danger'
+    },
+    {
+      name: 'Chips',
+      route: '/chips',
+      icon: 'chatbubbles',
+      color: 'tertiary'
+    },
+    {
+      name: 'Avatar',
+      route: '/avatar',
+      icon: 'person',
+      color: 'secondary'
+    },
+    {
+      name: 'Datetime',
+      route: '/datetime',
+      icon: 'calendar',
+      color: 'medium'
+    },
+    {
+      name: 'List',
+      route: '/list',
+      icon: 'list',
+      color: 'dark'
+    },
+    {
+      name: 'Picker',
+      route: '/picker',
+      icon: 'location',
+      color: 'danger'
+    },
+    {
+      name: 'items',
+      route: '/items',
+      icon: 'cart',
+      color: 'success'
+    },
+    {
+      name: 'fab',
+      route: '/fab',
+      icon: 'balloon',
+      color: 'warning'
     }
   ];
 

@@ -1,0 +1,11 @@
+<app-header title="Datetime"/>
+
+<ion-content [fullscreen]="true">
+    <ion-datetime class="ion-margin"></ion-datetime>
+    <h5 class="ion-margin">Datetime</h5>
+    <ion-datetime class="ion-margin" value="1993-09-14" min="1993-09-01" max="1993-09-30"></ion-datetime>
+    <h5 class="ion-margin">Datetime with multiples of 5</h5>
+    <ion-datetime class="ion-margin" dayValues="5,10,15,20,25,30"></ion-datetime>
+    <h5 class="ion-margin">Datetime 15 minutes</h5>
+    <ion-datetime class="ion-margin" hourCycle="h12" minuteValues="0,15,30,45,60"></ion-datetime>
+</ion-content>
